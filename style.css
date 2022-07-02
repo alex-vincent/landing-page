@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+ul a{
+    padding: 0 20px;
+    text-decoration: none;
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #1f2937;
+    padding-bottom: 20px;
+    height: 250px;
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color:#e5e7eb;
+    gap: 20px;
+}
+
+button{
+    background-color: #3882f6;
+    width: 65px;
+    height: 30px;
+    color:#e5e7eb;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.right-box{
+    display: flex;
+    background-color: gray;
+    height: 150px;
+    width: 400px;
+    justify-content:center;
+    align-items: center;
+}
+
+.section2-header{
+    text-align: center;
+    padding: 20px;
+    color: #1f2937;
+    padding-bottom: 0px;
+}
+
+.section2-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding-bottom: 10px;
+    height: 20vh;
+  }
+
+.info{
+    max-width: 200px;
+    text-align: center;
+    color: #1f2937;
+}
+
+.section3-container{
+    display: flex;
+    height: 25vh;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    
+}
+
+.quote{
+    font-style: italic;
+    text-align: center;
+    width: 750px;
+    padding: 25px;
+    padding-bottom: 5px;
+    color: #1f2937;
+    font-size: 24px;
+}
+
+.quote-author{
+    padding-left: 250px;
+}
+
+.section4-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    gap: 100px;
+}
+
+.s4box{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    gap: 50px;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.s4btn{
+    border:1px solid white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 60px;
+    color: #f9faf8;
+}
